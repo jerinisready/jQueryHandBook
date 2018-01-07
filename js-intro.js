@@ -1,5 +1,5 @@
 JS can 2 two things,
-        1) Alter anything in HTML DOM
+        1) CRUD anything in HTML DOM
         2) Communicate with External World!
 ------------------------------------------
 
@@ -90,9 +90,8 @@ Loops
     4)  do { Loop } while(condition);
 
 ------------------------------------------
-String Handling Functions
+String and String Handling Functions
 // https://www.w3schools.com/jsref/jsref_obj_string.asp
-------------------------------------------
 charAt() | concat() | endsWith() | includes() | indexOf() | match() | replace()
 search() | split() | slice() |  toUpperCase() | trim()  ...
 
@@ -100,8 +99,8 @@ String Style Modification Functions
 anchor()  |  bold() | fontsize() | italics() | small() | sub() ...
 
 ------------------------------------------
-Number Handling Functions
-NaN | MAX_VALUE | MIN_VALUE | POSITIVE_INFINITY | NEGATIVE_INFINITY | prototype
+Number and Number Handling Functions
+Constants :: NaN | MAX_VALUE | MIN_VALUE | POSITIVE_INFINITY | NEGATIVE_INFINITY
 isFinite() | isInteger() | isNaN() | toFixed(x) | toString() |  valueOf() ...
 
 Array Handling Functions

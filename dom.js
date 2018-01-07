@@ -1,13 +1,13 @@
 DOM STRUCTURE
-document
-elements
-style
-events
-attributes
+> document - Full Html as a single document. CRUD it
+> elements - Any subnode in a document
+> style    - Reguarding style to an element/document
+> events   - Any actions / triggers related to document.
+> attributes    -   Reguarging Get / Set of any attributes of an element
 
 
 ------------------------------------------
-document
+# document
 // https://www.w3schools.com/jsref/dom_obj_document.asp
 document.addEventListener()
 document.createAttribute()
@@ -17,7 +17,7 @@ document.createTextNode()
 
 
 ------------------------------------------
-Elements
+# Elements
 // https://www.w3schools.com/jsref/dom_obj_all.asp
 element.innerHTML = "My Javascript"
 element.addEventListener()
@@ -31,13 +31,13 @@ element.setAttribute()
 
 
 ------------------------------------------
-Style
+# Style
 // https://www.w3schools.com/jsref/dom_obj_style.asp
 object.style.background = ""
 document.getElementById("myH1").style.color = "red";
 
 ------------------------------------------
-Events in Javascript
+# Events in Javascript
 // https://www.w3schools.com/jsref/dom_obj_event.asp
 var x = document.getElementById("myBtn");
 x.addEventListener("click", myFunction);
@@ -64,7 +64,7 @@ x.addEventListener("click", myFunction);
     </script>
 ------------------------------------------
 
-attributes
+# attributes
 // https://www.w3schools.com/jsref/dom_obj_attributes.asp
 <button onclick="javascript:void(0);">
 var btn = document.getElementsByTagName("BUTTON")[0];
